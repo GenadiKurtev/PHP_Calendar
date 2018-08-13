@@ -1,0 +1,38 @@
+body {
+    background-color:#e1e0e0;
+}
+h1 {
+    text-align:center;
+}
+p {
+    
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom: 2px;
+    text-align: center;
+    
+}
+
+th {
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+.sunday {
+    color:red;
+}
+
+.month {
+    display:grid;
+    grid-template-columns: repeat(4,2fr);
+    grid-gap:10px;
+    grid-auto-rows:190px;
+}
+/* .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12{
+    display: flex;
+    
+} */
+table {
+    
+    display: flex;
+    justify-content: center;
+}
